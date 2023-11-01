@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus timer 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" defer type="module"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="timer">
+            <div class="text--timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+            <div class="icons--timer" id="icons--timer">
+                <img data-action="toggleRunning" id="button--play" src="./assets/play.svg"/> 
+                <img data-action="togglePause" id="button--stop" src="./assets/stop.svg"/> 
+                <img data-action="setPlus" id="button--plus" src="./assets/+.svg"/> 
+                <img data-action="setMinus" id="button--minubutton" src="./assets/-.svg"/> 
+            </div>
+        </div>
+        <div class="icons">
+            <div class="first--line" id="first--line--music">
+                <div class="icon tree" data-action="toggleTree"><button class="ph ph-tree-evergreen" data-action="toggleTree"></button></div>
+                <div class="icon coffee" data-action="toggleCoffee"><button class="ph ph-coffee"  data-action="toggleCoffee"></button></div>
+            </div>
+            <div class="second--line" id="second--line--music">
+                <div class="icon cloud" data-action="toggleCloud"><button class="ph ph-cloud-snow"  data-action="toggleCloud"></button></div>
+                <div class="icon campfire" data-action="toggleCampfire"><button class="ph ph-campfire"  data-action="toggleCampfire"></button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

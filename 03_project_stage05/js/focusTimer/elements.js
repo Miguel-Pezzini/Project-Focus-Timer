@@ -1,0 +1,5 @@
+export const controls = document.getElementById("icons--timer")
+export const firstLineMusicButtons = document.getElementById('first--line--music')
+export const secondLineMusicButtons = document.getElementById('second--line--music')
+export const minutes = document.getElementById('minutes')
+export const seconds = document.getElementById('seconds')
