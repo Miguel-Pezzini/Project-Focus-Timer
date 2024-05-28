@@ -1,4 +1,4 @@
-# aplicação Focus Timer
+# Aplicação Focus Timer
 
 ## Sobre o Projeto
 
